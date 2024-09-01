@@ -648,13 +648,13 @@ eval("// For more comments about what's going on here, check out the `hello_worl
 /******/ 							if(wasmImportedFuncCache71 === undefined) wasmImportedFuncCache71 = __webpack_require__.c["./pkg/index_bg.js"].exports;
 /******/ 							return wasmImportedFuncCache71["__wbindgen_memory"]();
 /******/ 						},
-/******/ 						"__wbindgen_closure_wrapper915": function(p0i32,p1i32,p2i32) {
+/******/ 						"__wbindgen_closure_wrapper905": function(p0i32,p1i32,p2i32) {
 /******/ 							if(wasmImportedFuncCache72 === undefined) wasmImportedFuncCache72 = __webpack_require__.c["./pkg/index_bg.js"].exports;
-/******/ 							return wasmImportedFuncCache72["__wbindgen_closure_wrapper915"](p0i32,p1i32,p2i32);
+/******/ 							return wasmImportedFuncCache72["__wbindgen_closure_wrapper905"](p0i32,p1i32,p2i32);
 /******/ 						},
-/******/ 						"__wbindgen_closure_wrapper1650": function(p0i32,p1i32,p2i32) {
+/******/ 						"__wbindgen_closure_wrapper1640": function(p0i32,p1i32,p2i32) {
 /******/ 							if(wasmImportedFuncCache73 === undefined) wasmImportedFuncCache73 = __webpack_require__.c["./pkg/index_bg.js"].exports;
-/******/ 							return wasmImportedFuncCache73["__wbindgen_closure_wrapper1650"](p0i32,p1i32,p2i32);
+/******/ 							return wasmImportedFuncCache73["__wbindgen_closure_wrapper1640"](p0i32,p1i32,p2i32);
 /******/ 						}
 /******/ 					}
 /******/ 				};
@@ -683,7 +683,7 @@ eval("// For more comments about what's going on here, check out the `hello_worl
 /******/ 					promises.push(installedWasmModuleData);
 /******/ 				else {
 /******/ 					var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 					var req = fetch(__webpack_require__.p + "" + {"pkg_index_js":{"./pkg/index_bg.wasm":"568d6e24f386fb8af784"}}[chunkId][wasmModuleId] + ".module.wasm");
+/******/ 					var req = fetch(__webpack_require__.p + "" + {"pkg_index_js":{"./pkg/index_bg.wasm":"d3df6bd92a73e9b158d7"}}[chunkId][wasmModuleId] + ".module.wasm");
 /******/ 					var promise;
 /******/ 					if(importObject && typeof importObject.then === 'function' && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 						promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
